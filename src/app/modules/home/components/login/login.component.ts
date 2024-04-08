@@ -12,7 +12,7 @@ import { UserDataService } from '../../../../services/user-data.service';
 export class LoginComponent implements OnInit{
   userData:userdata[] = []
   postData:userdata = {
-    name: "Tenali Ramakrishna", gender: "male", email: "tenali.ramakrishna@15ce.com", status: "active",
+    name: "Tenali", gender: "female", email: "tenali.raregvresgmakrishna@15ce.com", status: "inactive",
     id:21212122
   }
   constructor(private dataService: UserDataService) {
